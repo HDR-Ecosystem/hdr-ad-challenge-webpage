@@ -358,3 +358,15 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
+
+/* Align lists to the left */
+ol, ul {
+    margin-left: 20px; /* Adjust this value if needed */
+    padding-left: 20px; /* Adds indentation to the left */
+    text-align: left;    /* Ensures text is aligned to the left */
+}
+
+/* Optionally, to ensure uniformity */
+li {
+    text-align: left;    /* Align individual list items to the left */
+}
