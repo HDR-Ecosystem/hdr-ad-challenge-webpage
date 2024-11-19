@@ -22,14 +22,14 @@
 
             <h2>Testing/evaluation datasets</h2>
 
-             <p>We will provide a public and a private dataset of the testing dataset to allow us to find the anomalies. The public dataset will be an anomaly-free dataset that allows the proponents to train their model for submission. The private dataset will include additional background events and pre-hidden anomalies. We aim to hide 10 (we need to decide on this) anomalies within the data to see if the proponents can identify them.
+             <p>We provide a private testing dataset to allow the participants to test their model for submission. The private dataset will include additional background events and pre-hidden anomalies. The anomaly detection evaluation metric is the false positive rate (FPR) at a specified true positive rate (TPR), which is the same as the overall evaluation for the test dataset.
             </p>
 
             <h2>Evaluation datasets</h2>
 
-            <p>The evaluation will then be for the proponents to pick their highest 10 (we need to decide on this) anomalous events and then see if they pick out all anomalies. The leaderboard will be the efficiency of the selection.
+            <p>The evaluation metric is the false positive rate (FPR) at a specified true positive rate (TPR) when detecting anomalies. Please see the individual challenges for more details on the evaluation. Submission scoring code is provided on each challenge's GitHub repository as well.
 
-            The evaluation of the models will be performed with Codabench. At the moment, we will use the existing coda-bench setup hosted in Saclay with the possibility of larger-scale resources at the NSERC computing center at Lawrence Berkeley labs. The leaderboard will be updated on a few day timescale to accommodate the possible compute required to assess the leaderboard.
+            The evaluation of the models will be performed with resources at the NSERC computing center at Lawrence Berkeley labs. This means that submission results will not be immediately available, as submissions must be reviewed prior to being run (this may take a day or two). The leaderboard will be updated on a few day timescale to accommodate the possible compute required to assess the leaderboard.
             </p>
         </div>
     </section>
