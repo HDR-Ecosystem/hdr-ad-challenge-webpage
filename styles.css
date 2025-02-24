@@ -41,6 +41,22 @@ h2 {
     margin-top: 50px;
 }
 
+/* 
+Create Section for Challenge Organizers
+Organized in one row with three columns (one per Institute)
+Following: https://www.w3schools.com/howto/howto_css_three_columns.asp
+*/
+.text-row:after {
+    content: "";
+    display: table;
+    justify-content: center;
+    clear: both;
+}
+.col {
+    float: left;
+    width: 33.33%;
+}
+
 .circle {
     width: auto;
     height: auto;
