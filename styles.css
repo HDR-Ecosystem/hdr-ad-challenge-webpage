@@ -451,15 +451,3 @@ li {
     font-size: 0.9em;
     white-space: pre-line;
 }
-
-/* Increase header 3 text size */
-h3 {
-    font-size: 2rem;
-    /* Adjust this value as needed */
-}
-
-/* Increase header 3 text size */
-h2 {
-    font-size: 2.5rem;
-    /* Adjust this value as needed */
-}
