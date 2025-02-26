@@ -499,35 +499,3 @@ summary {
     font-size: 0.9em;
     white-space: pre-line;
 }
-
-/* Container for the entire details block */
-.speaker-container {
-    margin-top: 10px;
-}
-
-/* Bio header styled to appear on its own line */
-.speaker-bio-heading {
-    font-size: 1.1rem;
-    margin: 0 0 8px 0;
-    text-align: left;
-}
-
-/* Flex container for image and text */
-.speaker-details {
-    display: flex;
-    gap: 15px;
-    align-items: flex-start;
-    margin-bottom: 10px;
-}
-
-/* Speaker image styling */
-.speaker-image img {
-    width: 200px;
-    /* Adjust size as needed */
-    border-radius: 5px;
-}
-
-/* Ensure speaker text takes the remaining space */
-.speaker-text {
-    flex-grow: 1;
-}
