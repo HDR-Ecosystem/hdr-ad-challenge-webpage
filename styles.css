@@ -370,3 +370,11 @@ ol, ul {
 li {
     text-align: left;    /* Align individual list items to the left */
 }
+
+details {
+    margin-left: 1em;
+  }
+
+summary {
+    margin-left: -40em;
+}
