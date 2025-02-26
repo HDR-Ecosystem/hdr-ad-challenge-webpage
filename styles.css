@@ -407,6 +407,54 @@ li {
     /* Align individual list items to the left */
 }
 
+/* Style the details container */
+details {
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin-bottom: 1em;
+    transition: all 0.3s ease;
+}
+
+/* Style the summary (the clickable element) */
+details summary {
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none;
+    /* Hides default marker */
+    outline: none;
+}
+
+/* Remove the default marker */
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Add a custom marker. It rotates when the details are open */
+details summary::before {
+    content: "➕";
+    display: inline-block;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+details[open] summary::before {
+    content: "➖";
+    transform: rotate(180deg);
+}
+
+/* Optional: Style the content inside details */
+details p,
+details div,
+details li {
+    margin: 0.5em 0;
+    line-height: 1.4;
+}
+
+summary {
+    margin-left: -40em;
+}
 
 .emoji-list li {
     list-style: none;
