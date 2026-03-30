@@ -6,7 +6,7 @@ At the time, this repository was embedded as an iframe in the HDR website; howev
 
 ## Acknowledgments
 
-<p> This Harnessing the Data Revolution (HDR) Project is supported by the National Science Foundation under Awards: 
+<p> This <a href="https://www.nsfhdr.org" target="_blank">Harnessing the Data Revolution</a> (HDR) Project is supported by the National Science Foundation under Awards: 
       <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2118240&HistoricalAwards=false" target="_blank" rel="noopener noreferrer">2118240 (Imageomics)</a>,
       <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2118285&HistoricalAwards=false" target="_blank" rel="noopener noreferrer">2118285 (iHARP)</a>, 
       and <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2117997&HistoricalAwards=false" target="_blank" rel="noopener noreferrer">2117997 (A3D3)</a>. 
