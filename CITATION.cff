@@ -34,7 +34,7 @@ identifiers:
     value: "https://github.com/HDR-Ecosystem/hdr-ad-challenge-webpage/releases/tag/v1.0.0"
   - description: "The GitHub URL of the commit tagged with v1.0.0."
     type: url
-    value: "https://github.com/HDR-Ecosystem/hdr-ad-challenge-webpage/tree/<commit-hash>" # update on release
+    value: "https://github.com/HDR-Ecosystem/hdr-ad-challenge-webpage/tree/e40ba7e0aed40c5b2feeb6a0c0db278624a550f3"
 keywords:
   - imageomics
   - iHARP
@@ -50,5 +50,5 @@ message: "If you find this software or the HDR Anomaly Detection ML Challenge we
 repository-code: "https://github.com/HDR-Ecosystem/hdr-ad-challenge-webpage"
 title: "HDR Anomaly Detection ML Challenge Website"
 version: 1.0.0
-# doi: <DOI from Zenodo>    # version agnostic DOI, add once generated
+doi: "https://doi.org/10.5281/zenodo.19392602"
 type: software
