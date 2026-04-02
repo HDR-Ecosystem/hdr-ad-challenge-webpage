@@ -1,0 +1,54 @@
+abstract: "This repository generated the website for the first HDR ML Challenge, Anomaly Detection in Scientific Domains, and its associated workshop and award ceremony at AAAI25."
+authors:
+- family-names: Govorkova
+  given-names: "Katya"
+  affiliation: "Massachusetts Institute of Technology"
+- family-names: Chou
+  given-names: "Yuan-Tang"
+  affiliation: "University of Washington"
+- family-names: "Campolongo"
+  given-names: "Elizabeth G."
+  affiliation: "The Ohio State University"
+  orcid: "https://orcid.org/0000-0003-0846-2413"
+- family-names: Gratti
+  given-names: "Federico"
+- family-names: Chao
+  given-names: "Wei-Lun"
+  orcid: "https://orcid.org/0000-0003-1269-7231"
+  affiliation: "The Ohio State University"
+- family-names: Ballerini
+  given-names: "Gianni"
+- family-names: Ghosh
+  given-names: "Subhankar"
+  affiliation: "University of Minnesota, Twin Cities"
+  orcid: "https://orcid.org/0000-0001-5339-1832"
+- family-names: "Lapp"
+  given-names: "Hilmar"
+  orcid: "https://orcid.org/0000-0001-9107-0714"
+  affiliation: "Duke University"
+cff-version: 1.2.0
+date-released: "2025-03-14"
+identifiers:
+  - description: "The GitHub release URL of tag v1.0.0."
+    type: url
+    value: "https://github.com/HDR-Ecosystem/hdr-ad-challenge-webpage/releases/tag/v1.0.0"
+  - description: "The GitHub URL of the commit tagged with v1.0.0."
+    type: url
+    value: "https://github.com/HDR-Ecosystem/hdr-ad-challenge-webpage/tree/<commit-hash>" # update on release
+keywords:
+  - imageomics
+  - iHARP
+  - A3D3
+  - ml-challenge
+  - "anomaly detection"
+  - biology
+  - physics
+  - "climate science"
+  - "science-based challenge"
+license: MIT
+message: "If you find this software or the HDR Anomaly Detection ML Challenge website helpful in your research, please cite it using these metadata."
+repository-code: "https://github.com/HDR-Ecosystem/hdr-ad-challenge-webpage"
+title: "HDR Anomaly Detection ML Challenge Website"
+version: 1.0.0
+# doi: <DOI from Zenodo>    # version agnostic DOI, add once generated
+type: software
