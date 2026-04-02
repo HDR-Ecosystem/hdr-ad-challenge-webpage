@@ -1,4 +1,5 @@
-# HDR Anomaly Detection ML Challenge Website
+# HDR Anomaly Detection ML Challenge Website [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19392603.svg)](https://doi.org/10.5281/zenodo.19392602)
+
 
 This repository generated the website for the first HDR ML Challenge, _Anomaly Detection in Scientific Domains_, and its associated workshop and award ceremony at AAAI25.
 
